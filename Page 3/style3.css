@@ -125,6 +125,10 @@ i{
     height: 50px;
     color: white;
 }
+i:hover{
+    color:#ffb142;
+    cursor: pointer;
+}
 .follow{
     color:white;
     margin: 20px;
