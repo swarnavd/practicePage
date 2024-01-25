@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url(./Space_Grotesk/static/SpaceGrotesk-SemiBold.ttf);
+}
+body{
+    font-size:16px;
+    font-family:Space_Grotesk ;
+}
+.wrapper{
+    max-width:1400px;
+    margin:0 auto;
+    width:100%;
+}
+.wrapper1{
+    max-width:1400px;
+    margin:0 auto;
+    width:100%;
+    position: relative;
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: white;
+    visibility: hidden;
+    padding:20px;
+    width:20%;
+    
+}
+.overlay2{
+    position:absolute;
+    top:0;
+    left:26%;
+    background-color: white;
+    visibility: hidden;
+    padding:20px;
+    width:20%;
+    
+
+}
+
+.flex{
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.flex-aligncenter{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-center{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-spacebetween{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header1{
+    padding:25px 0;
+    border-bottom: 1px solid rgb(205, 205, 234);
+}
+.scratch{
+    color:rgb(157, 156, 156);
+}
+.blue{
+    color:#179ebe;
+}
+.black{
+    background-color: black;
+}
+
+nav li{
+    display: inline;
+    color:none;
+    list-style-type:none;
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+nav{
+    padding:25px 0;
+}
+
+
+.banner{
+    background-image: url(./your-health.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.lcontent{
+    width:40%
+}
+.rcontent{
+    width:25%;
+    background-color: white;
+    /* padding-top: 35px; */
+}
+.padding-topdown{
+    padding:50px 0;
+    
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    /* flex-wrap: wrap; */
+}
+.padding-lr{
+    padding:0 50px;
+}
+.ad{
+    background-color: #13353f;
+    padding:20px;
+    width:100%;
+}
+.center{
+    display:flex;
+    justify-content: center;
+}
+.primary-btn{
+    width:100px;
+    height:50px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius:25px ;
+    padding:10px;
+}
+.btn{
+    padding:20px 0;
+}
+.borderbottom{
+    border-bottom: 0.5px solid #e3eaf4 ;
+    
+}
+.padding-feature{
+    padding:20px;
+}
+.heading{
+    font-size: 52px;
+    color: #1797b1;
+}
+.para{
+    margin:20px 0 40px 0;
+    font-size: 22px;
+    color:#13353f;
+}
+.download{
+    display:flex;
+    
+}
+.orange{
+    color:#ff6a13;
+    font-size: 22px;
+    font-weight: 600;
+}
+.rightcon{
+    font-size: 28px;
+    color:#1797b1;
+}
+.orange-back{
+    background-color: #ff6a13;
+}
+.white{
+    color:#fbfcfc;
+}
+nav .wrapper{
+    position: relative;
+}
+.search{
+    position: absolute;
+    width:100%;
+    visibility: hidden;
+}
+input{
+    width:85%;
+}
+.cross:hover{
+    cursor: pointer;
+}
+.search-icon:hover{
+    cursor: pointer;
+
+}
+@media screen and (max-width:500px) {
+    .wrapper{
+        max-width: 500px;
+        width:100%;
+        margin: 0 auto;
+    }
+    .wrapper1{
+        max-width: 500px;
+        width:100%;
+        margin: 0 auto;
+    }
+    .download{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .lcontent{
+        width:100%;
+        justify-content: center;
+    }
+    .ad{
+        width: 100%;
+    }
+    .rcontent{
+        width:100%;
+    }
+}
+
